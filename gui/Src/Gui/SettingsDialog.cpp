@@ -486,7 +486,7 @@ void SettingsDialog::SaveSettings() {
   settings.dbgCloudPlatform = ui->checkBoxCloud->isChecked();
   if (settings.dbgCloudPlatform) {
     if (settings.dbgDefaultPlatform == pt_remote_vp_android) {
-      realDbgRemoteAndroidIP = "yunyoo.cn";
+      realDbgRemoteAndroidIP = "vpand.com";
     }
   }
   BridgeSettingSetUint(DBGSETTING_SECTION, DSSKEY_DEFAULT_PLATFORM,

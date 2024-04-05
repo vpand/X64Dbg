@@ -649,7 +649,7 @@ void SettingsDialog::SaveSettings() {
   QByteArray androidip = ui->lineEditAndroidIP->text().toUtf8();
   bool cloud = ui->checkBoxCloud->isChecked();
   if (cloud) {
-    androidip = "yunyoo.cn";
+    androidip = "vpand.com";
   }
   BridgeSettingSetUint(VSSETTING_SECTION, VSSKEY_ANDROID_CLOUD, cloud);
   BridgeSettingSet(VSSETTING_SECTION, VSSKEY_IOS_IP,

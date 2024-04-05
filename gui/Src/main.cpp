@@ -28,7 +28,7 @@ static void check_crash_dump(const QString &dmpdir) {
     QString filename = info.fileName();
     if (filename.endsWith(".dmp")) {
       QString msg(QString("Oops, crash dump file has been found in %1.\n\n"
-                  "Please send them to liubaijiang@yunyoo.cn or contact us by wechat(GeekNeo).\n"
+                  "Please send them to neoliu2011@gmail.com, liubaijiang@yunyoo.cn or contact us by wechat(GeekNeo).\n"
                   "Thank you very much to help us to improve this product.")
                   .arg(dmpdir));
       QMessageBox::information(nullptr, "Crash Reporter", msg, QMessageBox::Ok);
