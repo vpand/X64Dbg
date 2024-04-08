@@ -16,7 +16,7 @@
 #define STUDIO_BUILD_INFO " [SP %3]"
 #endif
 
-#include "../VMPStudio/include/vspdef.hpp"
+#include "vspdef.hpp"
 
 #define CFGSECT_VSP "VSPlugin"
 

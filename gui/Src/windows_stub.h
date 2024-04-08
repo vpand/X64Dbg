@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include <string.h>
 #include <unistd.h>
 
@@ -36,6 +37,7 @@ struct RECT {
   int top, bottom;
 };
 struct CRITICAL_SECTION {};
+#define GUID_DEFINED // make Qt happy
 typedef struct _GUID {
   unsigned long   Data1;
   unsigned short  Data2;

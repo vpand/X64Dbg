@@ -78,30 +78,6 @@ INCLUDEPATH += \
     ../dbg \
     ../abstraction
 
-# qt creator cannot find it, add it by myself
-win32 {
-  INCLUDEPATH += \
-    "C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt" \
-    "C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um" \
-    "C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared" \
-    "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"
-
-  QMAKE_LFLAGS += \
-    /libpath:\"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\lib\x64\" \
-    /libpath:\"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\atlmfc\lib\x64\" \
-    /libpath:\"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\x64\" \
-    /libpath:\"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x64\" \
-    /libpath:\"C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\um\x64\" \
-    ../../../A64Dbg/unimpl.obj YunYooDCore.lib /demangle:no /errorlimit:0
-
-  QMAKE_LFLAGS_DEBUG += \
-    /libpath:E:\VM.CODES\YUNYOO\a64dbg\Windows\YunYooDCore\x64\Debug
-
-  QMAKE_LFLAGS_RELEASE += \
-    /libpath:E:\VM.CODES\YUNYOO\a64dbg\Windows\YunYooDCore\x64\Release
-
-}
-
 linux {
   QMAKE_CXXFLAGS += -fshort-wchar
 }

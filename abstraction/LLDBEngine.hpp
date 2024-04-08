@@ -21,7 +21,7 @@
 
 #include <functional>
 #include <abstraction/MagicAna.hpp>
-#include <abstraction/HypertraceDef.h>
+#include <abstraction/HyperTraceDef.h>
 
 namespace dbgapi {
 

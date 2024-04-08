@@ -5,6 +5,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <limits>
 
 #if __APPLE__ || __linux__
 #define _In_z_

@@ -12,7 +12,7 @@
 #define A64DBG_BUILD_INFO " [SP %3]"
 #endif
 
-#include "../A64Dbg/include/adpdef.hpp"
+#include "adpdef.hpp"
 
 #include <QString>
 #include <vector>
