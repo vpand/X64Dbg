@@ -114,7 +114,7 @@ macx {
   !contains(QMAKE_HOST.arch, x86_64) {
     QMAKE_LIBDIR += $${PWD}/breakpad/linux/arm64
   } else {
-    QMAKE_LIBDIR += $${PWD}/breakpad/linux/x64
+    QMAKE_LIBDIR += $${PWD}/breakpad/linux/x86_64
   }
 }
 
