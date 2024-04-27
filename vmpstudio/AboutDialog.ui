@@ -471,7 +471,7 @@
            </property>
            <property name="text">
             <string>  *  Email: neoliu2011@gmail.com
-  *  Or, visit https://vpand.com/ to get more contact information like Facebook, Reddit, TikTok, etc..</string>
+  *  Or, visit https://vpand.com/ to get more contact information like Facebook, Reddit, X, etc..</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
