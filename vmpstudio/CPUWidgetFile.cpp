@@ -33,7 +33,7 @@ CPUWidgetFile::CPUWidgetFile(QWidget* parent)
       "StdSearchListView:focus { "
       "border: 1px solid #000000; }");
 
-  mDisas = new CPUDisassemblyFile(this, false);
+  mDisas = new CPUDisassemblyFile(this, true);
 
   mFuns = new StdSearchListView(
       this, true, false,
